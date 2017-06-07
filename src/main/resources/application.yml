@@ -7,3 +7,5 @@ spring:
       server:
         git:
           uri: https://github.com/iaforek/spring-cloudconfig-properties
+          search-paths:
+          - 'station*'
