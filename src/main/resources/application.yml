@@ -9,3 +9,10 @@ spring:
           uri: https://github.com/iaforek/spring-cloudconfig-properties
           search-paths:
           - 'station*'
+          repos:
+            perf:
+              pattern: 
+                - "*/perf"
+              uri: https://github.com/iaforek/spring-cloudconfig-properties-perf
+              search-paths:
+                - 'station*'
